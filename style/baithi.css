@@ -1,0 +1,700 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	 font-family: sans-serif; font-size: 0.9em;margin: 0 auto;background:rgba(20,36,87,1.00);
+}
+.clearfix{
+	clear: both;
+}
+/*header*/
+#header{
+	width: 95%; height: 150px; margin: 0 auto;
+	padding: 0 2%;
+	border-top:#7d5c87 4px solid;
+}
+
+
+#header .company{
+	float: left;margin-top: 20px; width:50%; height:120px;
+
+background:url("../images/banner1.jpg") no-repeat left center;
+}
+
+
+
+.company h1{
+	font-size: 2.5em; font-weight: 500;padding-left: 25%;
+}
+#header .search-container{
+	width:50%;
+	float: right; padding-top: 40px
+}
+#header .search-container form{
+	text-align:right;
+	width:100%;
+}
+
+.search-container input[type="text"]{
+	width:50%;height: 30px;border: #efefef 1px inset; font-style: italic
+}
+.search-container input[type="button"]{
+	background-color:#7d5c87;color:#FFFFFF; width:100px; height:31px; border: none
+}
+/*Menu*/
+
+#menuContainer {
+	width: 95%;
+	margin: 0 auto;
+	height: 50px;
+
+	
+}
+
+.navbar {
+	overflow: hidden; background-color: #efefef; 
+}
+.navbar a {
+    float: left; font-size: 16px; color: black;
+    text-align: center; padding: 14px 2%;
+    text-decoration: none; text-transform: uppercase;
+}
+.navbar a.active{
+	background-color: #7d5c87; color:#FFFFFF
+}
+/*about*/
+#about{
+	width: 95%;margin: 0 auto;
+	padding: 40px 2%;
+}
+#about .aLeft{
+	width:60%;
+	height: 500px;
+	float: left;
+	margin-right: 2%;
+	animation:fadeInLeft 2S 3S forwards;
+	opacity: 0;
+}
+#about .aLeft img{
+	width:100%;
+}
+#about .aRight{
+	width:38%;
+	float: right;
+}
+#about .k1{
+	width:48%;
+	float: left;
+	padding: 0 2% 10px 0;
+	animation:fadeInRight 2S 3S forwards;
+	opacity: 0;
+}
+#about .k2{
+	width:48%;
+	float: left;
+	padding: 0 0px 10px 2%;
+	animation:fadeInRight 2S 3S forwards;
+	opacity: 0;
+}
+#about .k3{
+	width:48%;
+	float: left;
+	padding: 10px 2% 0px 0px;
+	animation:fadeInRight 2S 3S forwards;
+	opacity: 0;
+}
+#about .k4{
+	width: 48%;
+	float: left;
+	padding: 10px 0px 0px 2%;
+	animation:fadeInRight 2S 3S forwards;
+	opacity: 0;
+}
+#about .k1 img, #about .k2 img, #about .k3 img, #about .k4 img{
+	width: 100%;
+}
+
+/*product*/
+.product{
+	width:95%; margin: 0 auto;
+	padding: 40px 2%;
+	
+	
+}
+.product .frame{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+	/*background-color: #dbdbdb;*/
+}
+.product .frame .p1{
+	width:30% ;text-align:center;
+	padding: 2%; margin-right: 3%;
+	background-color: #142457;
+	float: left;
+	animation:fadeInLeft 2S 2S forwards;
+	opacity: 0;
+	 
+}
+.product .frame h4{
+	text-align:center;
+	color:aliceblue;
+}
+.product .frame .p2{
+	width: 30%;text-align:center;
+	padding: 2%;margin-right: 3%;
+	background-color:rgba(20,36,87,1.00) #142457;
+	color: aliceblue;
+	float: left;
+	animation:fadeInDown 2S 2S forwards;
+	opacity: 0;
+	
+}
+.product .frame .p3{
+	width: 30%;text-align:center;
+	padding: 2%;
+	background-color: #142457;
+	color: aliceblue;
+	float: left;
+	animation:fadeInRight 2S 2S forwards;
+	opacity: 0;
+	
+}
+.frame img{
+	width: 100%;
+	border-radius: 10px;
+	transition:all 1s ease;
+	opacity: 1;
+}
+
+.frame .p1:hover img
+{
+        opacity:0.5;
+}
+
+.frame .p2:hover img
+{
+        opacity:0.5;
+}
+.frame .p3:hover img
+{
+        opacity:0.5;
+}
+p.subcontent{
+	line-height: 1.5; color:aliceblue;	
+}
+/* Feedback*/
+#feedback{
+	width: 95%; margin: 0 auto;
+	padding: 40px 2%;
+}
+.fd1, .fd2{
+	width: 50%;
+	float: left;
+}
+#feedback .hinh-kh{
+	width:35%;
+	float: left;
+}
+#feedback .hinh-kh img{
+	width:100%;
+}
+#feedback .camnhan{
+	float:left; width:55%;
+	color: aliceblue;
+	padding: 0px 5%;
+}
+#feedback .readmore{
+	width: 100px; height: 25px;padding: 5px;color: hsla(286,19%,45%,1.00);
+}
+#feedback a{
+	text-decoration: none; color:hsla(288,18%,44%,1.00);
+	line-height: 2; width:100px;
+}
+#information{
+	width:95%; margin: 0 auto;
+	background-color: #142457;
+	padding: 40px 2%;
+	border-top: 10px solid #e6e6e6;
+}
+#information .if {
+	width:100%; margin: 0 auto;
+	background-color: #142457;
+	padding:2%;
+	display: flex;
+}
+
+#information a{
+	 color:#7d5c87; text-decoration: none;
+}
+#information .infor1{
+	width: 22%;float: left;
+}
+#information .infor1 img{
+	width: 100%;
+}
+#information .infor2 {
+	width: 55%;float: left; margin: 0 auto; margin-left: 2%;
+}
+#information .infor2 iframe {
+	width: 100%;height: 250px; margin: 0 auto;
+}
+#information .infor4{
+	width: 22%;float: left;
+	margin-left: 2%;
+}
+#information form input[type="password"]{
+	width: 65%; height: 30px; border: none;
+}
+#information form input[type="button"]{
+	width: 70px; height: 30px;
+	background-color: #7d5c87; color:#FFFFFF;
+	border: none;
+}
+#information .infor4 input, textarea{
+	width: 100%;
+}
+#information h2{
+	font-size: 1em;
+	text-transform: uppercase;
+}
+#information .socialnet {
+	height: 5%;
+	padding: 20px 0;
+}
+.socialnet div {
+	float: left;
+}
+.socialnet .socialname {
+	padding: 3% 7%;
+}
+ /*footer*/
+#footer{
+	width: 95%; height: 60px; margin: 0 auto;
+	padding: 20px 2%;
+	background-color: #000000; color:#FFFFFF;
+	text-align: center;
+	
+}
+#footer h3 {
+	color: aliceblue;
+}
+/*slides*/
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 95%;
+	height: auto;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:aliceblue;
+  font-size: 15px;
+  padding: 20px 12px;
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  padding-left: 20%;
+margin-top: 2%;
+	
+}
+.text01 {color:aliceblue;
+          padding-top:10px;
+	animation:fadeInUp 2S 2S forwards;
+	opacity: 0;
+}
+.text02 {color:#000000;
+          padding-top:10px;
+	animation:fadeInLeft 2S 2S forwards;
+	opacity: 0;
+}
+.text03 {
+	color:hsla(286,19%,45%,1.00);
+	animation:bounceIn 2S 2S infinite;
+	opacity: 1;
+	
+}
+.text button { border: #FFBF00 solid;border-radius: 5px;margin-top: 2%;}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: aliceblue;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.textabout {
+	width: 45%;
+	margin: 0 auto;
+	text-align:left center;
+	float: left;
+	color: aliceblue;
+	padding-bottom: 30px;
+
+}
+
+
+.menu
+{
+	width:95%;
+	height: 50px;
+	float: right;
+	padding-left: 25%;
+	position: absolute;
+}
+ul
+{
+	list-style: none;
+	margin: 0;
+}
+ul li
+{
+	float: left;
+	padding: 15px 40px 15px 40px;
+	position: relative;
+	z-index: 1;
+}
+ul li a
+{
+	text-decoration: none;
+	color: yellow;
+	
+}
+ul li:hover
+{
+	background-color: #68506A;
+}
+ul li:hover a
+{
+	color: aliceblue;
+}
+
+ul li ul
+{
+	position: absolute;
+	left: 0px;
+	top:48px;
+	visibility: hidden;
+}
+ul li ul li
+{
+	width: 160px;
+	background-color:hsla(226,64%,21%,1.00) teal; 
+}
+
+ul li:hover ul
+{
+	visibility: visible;
+}
+
+.amthuc {
+	width:100%;
+	height: 600px;
+	
+}
+.gach {width:40%;
+	height: 20px;
+	float:left;
+	animation:fadeInLeft 1S 3S forwards;
+	opacity: 0;
+}
+.gach1 {
+	height: 20px;
+	width: 40%;
+    float:left;
+	animation:fadeInRight 1S 3S forwards;
+	opacity: 0;
+
+}
+.chu {
+	width: 15%;height: 20px;
+	margin: 0 auto;
+	text-align: center;
+	color: aliceblue;
+	border:aliceblue solid 0.5px;
+	border-radius: 5px;
+	animation:bounceIn 2S 2S infinite;
+	opacity: 1;
+}
+hr {
+	height: 2px;
+	border: none;
+	background: hsla(226,64%,21%,1.00);
+	margin-top: 8px;
+	
+}
+
+
+
+
+
+
+.body1 {
+  font-family: Arial;
+  width: 100%;
+	
+	margin: 0 auto;
+	
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides1 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor1 {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover,
+.next1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container1 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column1 {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo1 {
+  opacity: 0.6;
+}
+
+.active1,
+.demo1:hover {
+  opacity: 1;
+}
+.haha {
+	width: 50%;
+	background-color: rgba(20,36,87,1.00)aliceblue;
+	margin:0 auto;
+	text-align: center;color: aliceblue;
+	padding:10px;
+	animation:fadeInDownBig 2S 2S forwards;
+	opacity: 0;
+				
+}
+.haha1 {
+	width: 50%;
+	background-color: rgba(20,36,87,1.00);
+	margin:0 auto;
+	text-align: center;
+	color: aliceblue;
+	padding:10px;
+	animation:fadeInLeft 2S 2S forwards;
+	opacity: 0;
+				
+}
+.haha2 {
+	width: 50%;
+	background-color: rgba(20,36,87,1.00);
+	margin:0 auto;
+	text-align: center;
+	color: aliceblue;
+	padding:10px;
+	animation:fadeInDown 2S 2S forwards;
+	opacity: 0;
+				
+}
+.c6 {
+	width:31%;
+	height: 200px;
+	margin: 0 auto;
+	background: rgba(20,36,87,1.00);
+	
+	float: left;
+	border: 1px #000000;
+	border-radius: 5px;
+	
+}
+.c {
+	width:31%;
+	height: 200px;
+	margin:0 auto;
+	
+	background: #EFE0E0;
+	border: 1px #000000;
+	border-radius: 5px;
+    margin-top: 2%;
+}
+.c6 h2{
+	
+	position:absolute;
+	padding:9% ;
+	color: aliceblue;
+}
+.c h2{
+	padding:9% ;
+	position: absolute;
+	color: aliceblue;
+}
+.c66 {width: 95%;margin: 0 auto;padding-top: 20px;}
+.c666{width: 95%;margin: 0 auto;display: flex;}
+
+.c66 img {width: 100%;height: 200px;
+	border-radius: 10px;
+	transition:all 1s ease;
+	opacity: 1;
+}
+
+ .c6:hover img
+{
+        opacity:0.5;
+}
+ .c:hover img
+{
+        opacity:0.5;
+}
+.haha3 {
+	width: 50%;
+	
+	margin:0 auto;
+	text-align:left;
+	padding:10px;
+	animation:fadeInLeft 2S 2S forwards;
+	opacity: 0;
+				
+}
+
+
